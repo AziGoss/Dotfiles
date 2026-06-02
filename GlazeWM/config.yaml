@@ -83,9 +83,6 @@ window_rules:
         window_class: { not_regex: 'OpusApp' }
       - window_process: { equals: 'POWERPNT' }
         window_class: { not_regex: 'PPTFrameClass' }
-  - commands: ["set-transparency --opacity 85%"]
-    match:
-      - window_process: { equals: 'Code' }
 
 
 binding_modes:
