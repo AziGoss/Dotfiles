@@ -2,3 +2,9 @@
 <img width="1920" height="1080" alt="Снимок экрана 2026-06-02 203908" src="https://github.com/user-attachments/assets/a6c1baee-a2ac-4c09-836f-f929a3ed4c97" />
 <img width="1920" height="1080" alt="Снимок экрана 2026-06-02 203715" src="https://github.com/user-attachments/assets/09024d28-1c67-49f0-828c-2d08f60566f3" />
 <img width="1920" height="1080" alt="Снимок экрана 2026-06-02 203625" src="https://github.com/user-attachments/assets/274f9572-14af-49c2-adb0-ceed7b0c44f1" />
+
+Close the terminal by pressing Ctrl + F.
+Open the terminal settings by pressing Ctrl + M.
+You can change the settings in the configuration file.
+
+I am writing through a translator, sorry.
