@@ -1,0 +1,68 @@
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "source": "arch_small", //use fastfetch --list-logos
+    "color": {
+      "1": "38;2;252;171;67",
+      "2": "38;2;218;114;35",
+      "3": "38;2;152;73;26",
+      "4": "38;2;90;41;17"
+    },
+    "padding": {
+      "top": 2,
+      "left": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": "   "
+  },
+  "modules": [
+    "break",
+    "break",
+    {
+      "type": "os",
+      "key": " OS      ",
+      "keyColor": "38;2;252;171;67"
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel  ",
+      "keyColor": "38;2;252;171;67"
+    },
+    {
+      "type": "packages",
+      "key": " Packages",
+      "keyColor": "38;2;218;114;35"
+    },
+    {
+      "type": "shell",
+      "key": " Shell   ",
+      "keyColor": "38;2;218;114;35"
+    },
+    {
+      "type": "wm",
+      "key": " WM      ",
+      "keyColor": "38;2;152;73;26"
+    },
+    {
+      "type": "uptime",
+      "key": " Uptime  ",
+      "keyColor": "38;2;152;73;26"
+    },
+    {
+      "type": "cpu",
+      "key": " CPU     ",
+      "keyColor": "38;2;90;41;17"
+    },
+    {
+      "type": "memory",
+      "key": " Memory  ",
+      "keyColor": "38;2;90;41;17"
+    },
+    {
+      "type": "break"
+    }, 
+    "break"
+  ]
+}
