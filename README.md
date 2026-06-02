@@ -10,3 +10,6 @@ You can change the settings in the configuration file.
 I am writing through a translator, sorry.
 **You need:
 GlazeWM, YASB reborn, Fastfetch, Cava**
+
+Чтобы сделать прозрачным на win11 **БОЛЬШИНСТВО** окон вам нужно дописать это правило в GlazeWM:
+<img width="455" height="68" alt="image" src="https://github.com/user-attachments/assets/63261be6-213f-4512-8274-0bd998c74e32" />
