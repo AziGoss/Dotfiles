@@ -8,3 +8,8 @@ Open the terminal settings by pressing Ctrl + M.
 You can change the settings in the configuration file.
 
 I am writing through a translator, sorry.
+**You need:
+GlazeWM
+YASB reborn
+Fastfetch
+Cava**
