@@ -1,0 +1,103 @@
+watch_stylesheet: true
+watch_config: true
+debug: false
+
+bars:
+  status-bar:
+    enabled: true
+    screens: ['*'] 
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: true
+    blur_effect:
+      enabled: false
+      acrylic: false
+      dark_mode: true
+      round_corners: true
+      border_color: "System"
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "98%"
+      height: 30
+    widgets:
+      left: ["active_window"] 
+      center: ["clock"]
+      right: ["cava", "systray"]
+
+widgets:
+  media:
+    type: "yasb.media.MediaWidget"
+    options:
+      label: "{title} - {artist}"
+      label_alt: "{title}"
+      max_field_size:
+        label: 20
+        label_alt: 30
+      show_thumbnail: false
+      controls_only: true
+      controls_left: true
+      hide_empty: true
+      icons:
+        prev_track: "\ue892"
+        next_track: "\ue893"
+        play: "\uf01d"
+        pause: "\uf28c"
+
+  active_window:
+    type: "yasb.active_window.ActiveWindowWidget"
+    options:
+      label: "{win[title]}"
+      label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
+      label_no_window: ""
+      label_icon: false
+      label_icon_size: 14
+      max_length: 56
+      max_length_ellipsis: "..."
+      monitor_exclusive: true
+
+  clock:
+    type: "yasb.clock.ClockWidget"
+    options:
+      label: "{%a %d, %b %H:%M}"
+      label_alt: "{%A %d %B %Y, %H:%M}"
+      timezones: [] 
+      callbacks:
+        on_right: "exec cmd.exe /c start ms-clock:"
+      calendar: 
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "center"
+        direction: "down"
+
+  systray:
+    type: "yasb.systray.SystrayWidget"
+    options:
+      class_name: "systray"
+      label_collapsed: "\udb81\udeb6"
+      label_expanded: "\udb82\ude03"
+      label_position: "left"
+      icon_size: 15
+      pin_click_modifier: "alt" 
+      show_unpinned: false
+
+  cava:
+    type: "yasb.cava.CavaWidget"
+    options:
+      bar_height: 12
+      min_bar_height: 0
+      gradient: 1
+      foreground: "#89b4fa"
+      gradient_color_1: '#5A2911'
+      gradient_color_2: '#98491A'
+      gradient_color_3: '#DA7223'
+      bars_number: 8
+      bar_spacing: 2
+      bar_width: 8
+      bar_type: "bars"
+      framerate: 60
+      hide_empty: true
