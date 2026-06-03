@@ -18,6 +18,7 @@ Open default terminal settings Ctrl + Shift + ,
 
 
 To make **MOST** windows transparent on Win11, you need to add this rule to GlazeWM in windows_rules:
+ - Replace "code" with the name of your process. For example: Chrome
 
 <img width="455" height="68" alt="image" src="https://github.com/user-attachments/assets/63261be6-213f-4512-8274-0bd998c74e32" />
 
