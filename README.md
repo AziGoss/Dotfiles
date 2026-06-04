@@ -9,6 +9,15 @@ Open the terminal settings by pressing Ctrl + M.
 You can change the settings in the configuration file.
 Open default terminal settings Ctrl + Shift + ,
 
+ - To apply the configuration from the Win11 terminal, you need to go to the specified path and replace json with json from GitHub.
+ - <img width="764" height="24" alt="Снимок экрана 2026-06-04 134857" src="https://github.com/user-attachments/assets/32e34e1d-5b1f-4b77-9a48-d9b8490563d5" />
+ - To remove the text 'Windows PowerShell...' you need to do the following: Run powershell and enter this command **notepad $PROFILE** then enter these lines
+ - <img width="251" height="74" alt="Снимок экрана 2026-06-04 142922" src="https://github.com/user-attachments/assets/d03e6119-a122-4c54-be63-6b2831788cb8" />
+ - <img width="428" height="65" alt="Снимок экрана 2026-06-04 135737" src="https://github.com/user-attachments/assets/db1fcc5e-30da-4399-a3d1-c21f88c7c671" />
+
+
+
+
 ### Used
 **GlazeWM** • **YASB Reborn** • **Windows Terminal** • **Fastfetch** • **Cava**
 
