@@ -3,6 +3,12 @@
 <img width="1920" height="1080" alt="Снимок экрана 2026-06-02 203715" src="https://github.com/user-attachments/assets/09024d28-1c67-49f0-828c-2d08f60566f3" />
 <img width="1920" height="1080" alt="Снимок экрана 2026-06-02 203625" src="https://github.com/user-attachments/assets/274f9572-14af-49c2-adb0-ceed7b0c44f1" />
 
+<div align="center">
+<h1>My Windows 11 Rice</h1>
+<br>
+ 𝐼 𝓊𝓈𝑒 𝓌𝒾𝓃𝒹𝑜𝓌𝓈 𝒷𝓉𝓌
+<br>
+</div>
 
 # Used
 **GlazeWM** • **YASB Reborn** • **Windows Terminal** • **Fastfetch** • **Cava**
@@ -37,6 +43,3 @@ To make **MOST** windows transparent on Win11, you need to add this rule to Glaz
 
  - **Simply replace the configuration files with the files from GitHub. The GlazeWM, Fastfetch, and YASB folders will be located in your user directory**
  - <img width="273" height="52" alt="image" src="https://github.com/user-attachments/assets/32d82a9d-f084-4e73-90dd-1908d9e46dc1" />
-
-
-𝐼 𝓊𝓈𝑒 𝓌𝒾𝓃𝒹𝑜𝓌𝓈 𝒷𝓉𝓌
