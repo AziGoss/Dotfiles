@@ -44,6 +44,7 @@ To make **MOST** windows transparent on Win11, you need to add this rule to Glaz
 
 <img width="455" height="68" alt="image" src="https://github.com/user-attachments/assets/63261be6-213f-4512-8274-0bd998c74e32" />
 #
+
 # GLAZEWM, YASB, FASTFETCH
 
  - **Simply replace the configuration files with the files from GitHub. The GlazeWM, Fastfetch, and YASB folders will be located in your user directory**
