@@ -5,10 +5,6 @@
 <br>
 </div>
 
- <sub> 
- - discord: Dr.Azigos
- - Reddit: u/AziGoss
- </sub>
 
 <img width="1920" height="1080" alt="Снимок экрана 2026-06-02 204039" src="https://github.com/user-attachments/assets/36d241aa-eec4-4d55-89cf-ca42cb15642c" />
 <img width="1920" height="1080" alt="Снимок экрана 2026-06-02 203908" src="https://github.com/user-attachments/assets/a6c1baee-a2ac-4c09-836f-f929a3ed4c97" />
